@@ -16,6 +16,7 @@ public class AlteraEmpresa implements Acao{
 	
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		
 		String nomeEmpresa = request.getParameter("nome");
 		String data = request.getParameter("data");
 		String idString = request.getParameter("id");
